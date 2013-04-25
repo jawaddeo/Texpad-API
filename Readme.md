@@ -2,7 +2,11 @@
 
 ### Introduction
 
-Texpad-API.framework is a typesetting API that enables any iOS application to typeset LaTeX documents using Texpad's built-in LaTeX typesetter.
+Texpad-API.framework is an API that enables any iOS application to typeset LaTeX documents on the device using the LaTeX typesetter built into [Texpad](http://texpadapp.com/).
+
+Almost any application that outputs PDFs can benefit from the TeX's high quality output. Very few PDF creation libraries possess even TeX's most rudimentary typesetting abilities - for example accurate hyphenation, ligatures and elegant kerning - and the quality of the documents they create suffers as a result.
+
+This framework can be added to any iOS application. It will pass the document to Texpad via iOS's custom URL schemes, which will typeset it and pass it back to the original application.
 
 Please note that the API server was only added to Texpad 1.5.  This API will not work with earlier versions of Texpad.
 
